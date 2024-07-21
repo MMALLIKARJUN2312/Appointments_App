@@ -1,0 +1,49 @@
+/* Write your CSS here */
+
+.appointment-item {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  border-radius: 14px;
+  padding: 18px;
+  margin-bottom: 18px;
+}
+
+.appointment-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: 500;
+  color: #171f46;
+  margin: 0px;
+}
+
+.star-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.star {
+  height: 23px;
+  width: 23px;
+  background: transparent;
+  align-self: center;
+  border: none;
+  outline: none;
+}
+
+.date {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #7e858e;
+  margin: 0px;
+}
